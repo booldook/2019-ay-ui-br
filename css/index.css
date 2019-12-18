@@ -1,0 +1,24 @@
+html, body {font-size: 14px; font-family: 'Merriweather', serif;
+	/* font-family: 'Roboto', sans-serif; */}
+
+header {padding: 8px 12px; background-color: #fff; 
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); letter-spacing: 5px;}
+header > .logo {float: left; padding: 8px 16px;}
+header > .logo > span {font-weight : bold;}
+header > .nav-wrap {float: right;}
+header > .nav-wrap > div {float: left; padding: 8px 16px;}
+header > .logo:hover, 
+header > .nav-wrap > div:hover {background-color: #ddd; 
+	cursor: pointer;}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+}
