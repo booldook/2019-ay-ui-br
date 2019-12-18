@@ -2,6 +2,11 @@
 html, body {font-size: 14px; font-family: 'Roboto', sans-serif; height: 5000px}
 .wrapper {max-width: 980px; margin: 80px auto; padding: 0 2%;}
 .wrapper > h2 {padding: 16px 0; border-bottom: 1px solid #ccc; font-weight: normal;}
+.wrapper > p {
+	padding: 24px 0;
+	line-height: 1.75;
+	color: #444;
+}
 
 /* Header */
 header {padding: 8px 12px; background-color: #fff; 
@@ -27,6 +32,18 @@ main {position: relative;}
 .prj > .title {padding: 8px; background-color: #111; color: #f8f8f8;
 position: absolute; top: 0; left: 0;}
 
+/* About */
+.members {width: 102%; margin: 24px 0 0 -1%;}
+.member {width: 23%; float: left; margin: 1%;}
+.member img:hover {opacity: 0.8;}
+.member > .name {padding: 8px 0; font-size: 24px;}
+.member > .title {padding: 8px 0; font-size: 16px; color: #999;}
+.member > .cont {padding: 8px 0; font-size: 14px; color: #333; line-height: 1.5;}
+.member > .btn {padding: 12px 0; background-color: #ddd; color: #111; text-align: center; cursor: pointer;}
+.member > .btn:hover {background-color: #aaa;}
+
+
+
 @media screen and (max-width: 992px) {
 	
 }
@@ -34,9 +51,11 @@ position: absolute; top: 0; left: 0;}
 @media screen and (max-width: 768px) {
 	.nav-wrap {display: none;}
 	.prj {width: 49%;}
+	.member {width: 48%; margin-bottom: 3%;}
 }
 
 @media screen and (max-width: 575px) {
 	.ban-slogan > :last-child {display: none;}
 	.prj {width: 99%;}
+	.member {width: 98%;}
 }
