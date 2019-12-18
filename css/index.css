@@ -1,5 +1,5 @@
 /* 공통사항 */
-html, body {font-size: 14px; font-family: 'Roboto', sans-serif;}
+html, body {font-size: 14px; font-family: 'Roboto', sans-serif; height: 5000px}
 .wrapper {max-width: 980px; margin: 80px auto; padding: 0 2%;}
 .wrapper > h2 {padding: 16px 0; border-bottom: 1px solid #ccc; font-weight: normal;}
 
