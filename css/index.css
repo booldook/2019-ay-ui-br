@@ -1,5 +1,7 @@
 /* 공통사항 */
 html, body {font-size: 14px; font-family: 'Roboto', sans-serif;}
+.wrapper {max-width: 980px; margin: 80px auto; padding: 0 2%;}
+.wrapper > h2 {padding: 16px 0; border-bottom: 1px solid #ccc; font-weight: normal;}
 
 /* Header */
 header {padding: 8px 12px; background-color: #fff; 
@@ -13,12 +15,11 @@ header > .nav-wrap > div:hover {background-color: #ddd;
 	cursor: pointer;}
 
 /* Banner */
-main {position:relative;}
-.ban-slogan {font-size: 40px; letter-spacing: 6px; color: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -10%);}
+main {position: relative;}
+.ban-slogan {font-size: 40px; letter-spacing: 6px; color: #fff; 
+	position: absolute; top: 50%; left: 50%; 
+	transform: translate(-50%, -20%); }
 .ban-slogan > :first-child {font-weight: bold; display: inline-block; padding: 12px; background-color: black; opacity: 0.7;}
-.ban-slogan > :last-child {}
-
-
 
 @media screen and (max-width: 992px) {
 	
@@ -29,5 +30,5 @@ main {position:relative;}
 }
 
 @media screen and (max-width: 575px) {
-
+	.ban-slogan > :last-child {display: none;}
 }
