@@ -5,27 +5,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>BR Architect</title>
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./css/fa.min.css" rel="stylesheet">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/base.css">
 	<link rel="stylesheet" href="./css/index.css">
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/wow.min.js"></script>
 </head>
 <body>
-	<header class="clear">
-		<div class="logo">
-			<span>BR</span>Architects
+	<header>
+		<div class="clear">
+			<div class="logo">
+				<span>BR</span>Architects
+			</div>
+			<nav class="nav-wrap">
+				<div>Projects</div>
+				<div>About</div>
+				<div>Contact</div>
+			</nav>
 		</div>
-		<nav class="nav-wrap">
-			<div>Projects</div>
-			<div>About</div>
-			<div>Contact</div>
-		</nav>
+		<div class="sub-wrap">
+			<ul class="subs">
+				<li>Sub menu1-1</li>
+				<li>Sub menu1-2</li>
+				<li>Sub menu1-3</li>
+			</ul>
+			<ul class="subs">
+				<li>Sub menu2-1</li>
+				<li>Sub menu2-2</li>
+				<li>Sub menu2-3</li>
+			</ul>
+			<ul class="subs">
+				<li>Sub menu3-1</li>
+				<li>Sub menu3-2</li>
+				<li>Sub menu3-3</li>
+			</ul>
+		</div>
 	</header>
 	<main>
 		<img src="./img/architect.jpg" alt="배너" class="img">
 		<div class="ban-slogan">
-			<span>BR</span>
+			<span id="test">BR</span>
 			<span>Architects</span>
 		</div>
 	</main>
@@ -118,5 +141,6 @@
 		<img src="./img/map.jpg" alt="map" class="img">
 	</section>
 	<footer class="footer">Powered by w3.css</footer>
+	<script src="./js/index.js"></script>
 </body>
 </html>

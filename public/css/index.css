@@ -11,13 +11,16 @@ html, body {font-size: 14px; font-family: 'Roboto', sans-serif;}
 /* Header */
 header {padding: 8px 12px; background-color: #fff; 
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); letter-spacing: 5px; position: fixed; top: 0; width: 100%; z-index: 9;}
-header > .logo {float: left; padding: 8px 16px;}
-header > .logo > span {font-weight : bold;}
-header > .nav-wrap {float: right;}
-header > .nav-wrap > div {float: left; padding: 8px 16px;}
-header > .logo:hover, 
-header > .nav-wrap > div:hover {background-color: #ddd; 
+header .logo {float: left; padding: 8px 16px;}
+header .logo > span {font-weight : bold;}
+header .nav-wrap {float: right;}
+header .nav-wrap > div {float: left; padding: 8px 0; width: 150px; text-align: center;}
+header .logo:hover, 
+header .nav-wrap > div:hover {background-color: #ddd; 
 	cursor: pointer;}
+.sub-wrap {width: 100%; display: none; justify-content: flex-end;}
+.sub-wrap li {width: 150px; padding: 8px 0; text-align: center; letter-spacing: normal; cursor: pointer;}
+
 
 /* Banner */
 main {position: relative;}
