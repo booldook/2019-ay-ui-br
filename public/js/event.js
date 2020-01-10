@@ -1,0 +1,11 @@
+$("body").click(function(){
+	console.log("body!!");
+});
+$(".wrap").click(function(e){
+	e.stopPropagation();
+	console.log(".wrap!!");
+});
+$(".box").click(function(e){
+	e.stopPropagation();
+	console.log(".box!!");
+});

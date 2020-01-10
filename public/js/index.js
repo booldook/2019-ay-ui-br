@@ -21,3 +21,16 @@ $(".prj").find("img").mouseenter(function(){
 $(".prj").find("img").mouseleave(function(){
 	$(this).attr("src", $(this).data("src"));
 });
+
+$(".prj").click(function(){
+	var img = $(this).find("img").data("hover");
+	$(".popup-content").find("img").attr("src", img);
+	$(".popup-wrap").addClass("active");
+});
+
+$(".popup-wrap").click(function(){
+	$(".popup-wrap").removeClass("active");
+});
+$(".popup-content").find("img").click(function(e){
+	e.stopPropagation();
+});
