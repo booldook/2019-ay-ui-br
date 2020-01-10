@@ -14,3 +14,10 @@ $("header").mouseleave(function(){
 $(".nav-bars").click(function(){
 	$(".sub-wrap").stop().slideToggle(300);
 });
+
+$(".prj").find("img").mouseenter(function(){
+	$(this).attr("src", $(this).data("hover"));
+});
+$(".prj").find("img").mouseleave(function(){
+	$(this).attr("src", $(this).data("src"));
+});
