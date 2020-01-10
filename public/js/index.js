@@ -11,3 +11,6 @@ $(".nav-wrap").children("div").mouseenter(function(){
 $("header").mouseleave(function(){
 	$(".sub-wrap").stop().slideUp(300);
 });
+$(".nav-bars").click(function(){
+	$(".sub-wrap").stop().slideToggle(300);
+});

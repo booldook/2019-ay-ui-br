@@ -21,7 +21,8 @@ header {padding: 8px 12px; background-color: #fff;
 .nav-wrap > div:hover {background-color: #ddd; cursor: pointer;}
 .sub-wrap {width: 100%; padding-top: 1rem; display: none;}
 .sub-wrap > .subs {display: flex; justify-content: flex-end;}
-.sub-wrap li {width: 150px; padding: 8px 0; text-align: center; letter-spacing: normal; cursor: pointer;}
+.subs > .sub {flex: 150px 0 1;}
+.sub-wrap li {padding: 8px 0; text-align: center; letter-spacing: normal; cursor: pointer;}
 
 
 /* Banner */
@@ -63,6 +64,7 @@ position: absolute; top: 0; left: 0;}
 @media screen and (max-width: 768px) {
 	.nav-wrap {display: none;}
 	.nav-bars {display: block;}
+	.subs > .sub {flex: 33.33% 0 1;}
 	.prj {width: 49%;}
 	.member {width: 48%; margin-bottom: 3%;}
 }
